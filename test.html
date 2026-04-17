@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANADIAN LIMOS FIFA World Cup 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        .heading-font { font-family: 'Playfair Display', sans-serif; }
+
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.72), rgba(15, 23, 42, 0.88)),
+                        url('https://images.unsplash.com/photo-1517649763962-0c623066013b') center/cover no-repeat;
+           
+            background-image: linear-gradient(rgba(15, 23, 42, 0.72), rgba(15, 23, 42, 0.88)),
+                              url('https://images.unsplash.com/photo-1517649763962-0c623066013b'); 
+           
+			height:90vh;
+        }
+
+        .testimonials-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.9)),
+                        url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat;
+        }
+
+        .section-header::after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background: #f59e0b;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Client Cards */
+        .client-card {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .client-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .client-card:hover {
+            transform: translateY(-12px) scale(1.05);
+            box-shadow: 0 25px 50px -12px rgb(245 158 11 / 0.3);
+        }
+
+        /* Testimonials Carousel */
+        .testimonial-carousel {
+            overflow: hidden;
+            position: relative;
+        }
+        .testimonial-track {
+            display: flex;
+            transition: transform 0.7s cubic-bezier(0.32, 0.72, 0, 1);
+        }
+        .testimonial-slide {
+            min-width: 100%;
+            padding: 0 20px;
+        }
+		
+		/* hidden state */
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+/* visible state */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* stagger delay (optional) */
+.reveal.delay-1 { transition-delay: 0.2s; }
+.reveal.delay-2 { transition-delay: 0.4s; }
+.reveal.delay-3 { transition-delay: 0.6s; }
+.reveal.delay-4 { transition-delay: 0.8s; }
+
+    </style>
+</head>
+<body class="bg-slate-950 text-white">
+
+    <!-- HERO SECTION - Luxury Car -->
+ <!-- HERO SECTION - Clean & Balanced -->
+<section id="hero" class="hero-bg h-screen flex items-center relative">
+
+<div class="absolute top-6 left-8 flex items-center gap-2">
+  <div class="w-10 h-10 bg-amber-400 text-slate-950 flex items-center justify-center font-bold rounded-lg">
+    CL
+  </div>
+  <span class="font-semibold text-white text-lg tracking-wide">
+    CANADIAN LIMOS
+  </span>
+</div>
+
+    <div class="max-w-screen-2xl mx-auto px-8">
+        <div class="max-w-xl">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-6 py-2.5 rounded-full text-sm font-medium mb-8 border border-white/20">
+                <span class="text-emerald-400">●</span>
+                PREMIUM TRANSPORT PARTNER — FIFA WORLD CUP 2026
+            </div>
+
+            <h1 class="heading-font text-5xl md:text-6xl leading-tight font-bold text-white mb-6">
+                Elite Transportation<br>for the FIFA World Cup 2026
+            </h1>
+
+            <p class="text-xl text-slate-200 leading-relaxed max-w-lg">
+                Seamless luxury ground transportation for athletes, national teams, federations, 
+                and VIP guests during the world's biggest sporting event.
+            </p>
+
+            <div class="flex flex-wrap gap-4 mt-10">
+                <button onclick="document.getElementById('cta').scrollIntoView({ behavior: 'smooth' })" 
+                        class="px-10 py-5 bg-amber-400 hover:bg-amber-500 text-slate-950 font-semibold rounded-3xl text-lg shadow-xl hover:scale-105 transition">
+                    <i class="fa-solid fa-car-side"></i>
+                    Book Your VIP Ride
+                </button>
+
+                <a href="#services" 
+                   class="px-10 py-5 border-2 border-white/70 hover:border-amber-400 text-white hover:text-amber-400 font-medium rounded-3xl text-lg flex items-center gap-3">
+                    Explore Our Fleet
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-12 left-1/2 flex flex-col items-center text-white/60 text-xs tracking-widest">
+        SCROLL TO DISCOVER
+        <i class="fa-solid fa-chevron-down mt-3 animate-bounce text-2xl"></i>
+    </div>
+</section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 bg-slate-900">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="text-amber-400 font-medium">PREMIUM SERVICES</span>
+                <h2 class="heading-font text-5xl mt-3 mb-4">Tailored for Champions</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-slate-800 p-8 rounded-3xl hover:bg-slate-700 transition-all reveal">
+                    <i class="fa-solid fa-car text-4xl text-amber-400 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Private Chauffeur Sedans</h3>
+                    <p class="text-slate-400">Mercedes S-Class, BMW 7 Series & Rolls-Royce</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl hover:bg-slate-700 transition-all reveal">
+                    <i class="fa-solid fa-van-shuttle text-4xl text-amber-400 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Executive SUVs & Vans</h3>
+                    <p class="text-slate-400">Range Rover, Mercedes V-Class & Escalade</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl hover:bg-slate-700 transition-all reveal">
+                    <i class="fa-solid fa-bus text-4xl text-amber-400 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Luxury Team Coaches</h3>
+                    <p class="text-slate-400">30–50 seater branded coaches</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl hover:bg-slate-700 transition-all reveal">
+                    <i class="fa-solid fa-route text-4xl text-amber-400 mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-3">Bespoke Itineraries</h3>
+                    <p class="text-slate-400">Airport • Stadium • Multi-city transfers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT SEGMENTS -->
+    <section id="clients" class="py-24 bg-slate-950">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="text-center mb-16">
+                <span class="text-amber-400 font-medium tracking-widest">OUR CLIENTS</span>
+                <h2 class="heading-font text-5xl mt-3">Trusted by the Best in Sports</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8" id="client-grid">
+                <div class="client-card bg-slate-900 rounded-3xl p-10 text-center">
+                    <div class="text-7xl mb-6">⚽</div>
+                    <h4 class="text-2xl font-semibold mb-2">Professional Athletes</h4>
+                    <p class="text-slate-400">Star players and agents</p>
+                </div>
+                <div class="client-card bg-slate-900 rounded-3xl p-10 text-center">
+                    <div class="text-7xl mb-6">🏆</div>
+                    <h4 class="text-2xl font-semibold mb-2">National Federations</h4>
+                    <p class="text-slate-400">Official delegations</p>
+                </div>
+                <div class="client-card bg-slate-900 rounded-3xl p-10 text-center">
+                    <div class="text-7xl mb-6">🏟️</div>
+                    <h4 class="text-2xl font-semibold mb-2">Premier Clubs</h4>
+                    <p class="text-slate-400">Executives & staff</p>
+                </div>
+                <div class="client-card bg-slate-900 rounded-3xl p-10 text-center">
+                    <div class="text-7xl mb-6">📺</div>
+                    <h4 class="text-2xl font-semibold mb-2">Media & Sponsors</h4>
+                    <p class="text-slate-400">Broadcast & partners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS - World Cup Stadium Background -->
+    <section class="py-24 testimonials-bg relative" id="testimonials">
+        <div class="max-w-screen-2xl mx-auto px-8 relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-amber-400 font-medium tracking-widest">TESTIMONIALS</span>
+                <h2 class="heading-font text-5xl mt-3">What Champions Say</h2>
+            </div>
+
+            <div class="testimonial-carousel max-w-4xl mx-auto">
+                <div id="testimonial-track" class="testimonial-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="bg-slate-800/95 backdrop-blur rounded-3xl p-12">
+                            <i class="fa-solid fa-quote-left text-6xl text-amber-400/20 mb-8"></i>
+                            <p class="text-2xl italic text-slate-100 leading-relaxed">
+                                "The most seamless and luxurious airport-to-stadium experience I’ve ever had during a major tournament."
+                            </p>
+                            <div class="flex gap-x-1 text-amber-400 mt-10 mb-8 text-2xl">★★★★★</div>
+                            <div class="flex items-center gap-5">
+                                <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center text-5xl">🇧🇷</div>
+                                <div>
+                                    <div class="font-semibold text-2xl">Neymar Jr.</div>
+                                    <div class="text-amber-400">Brazil National Team</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="bg-slate-800/95 backdrop-blur rounded-3xl p-12">
+                            <i class="fa-solid fa-quote-left text-6xl text-amber-400/20 mb-8"></i>
+                            <p class="text-2xl italic text-slate-100 leading-relaxed">
+                                "Perfect coordination for our entire delegation. The luxury team coaches were outstanding."
+                            </p>
+                            <div class="flex gap-x-1 text-amber-400 mt-10 mb-8 text-2xl">★★★★★</div>
+                            <div class="flex items-center gap-5">
+                                <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-white rounded-2xl flex items-center justify-center text-5xl">🏴󠁧󠁢󠁥󠁮󠁧󠁿</div>
+                                <div>
+                                    <div class="font-semibold text-2xl">Gareth Southgate</div>
+                                    <div class="text-amber-400">England National Team Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="bg-slate-800/95 backdrop-blur rounded-3xl p-12">
+                            <i class="fa-solid fa-quote-left text-6xl text-amber-400/20 mb-8"></i>
+                            <p class="text-2xl italic text-slate-100 leading-relaxed">
+                                "Discreet, reliable and truly premium service across multiple venues."
+                            </p>
+                            <div class="flex gap-x-1 text-amber-400 mt-10 mb-8 text-2xl">★★★★☆</div>
+                            <div class="flex items-center gap-5">
+                                <div class="w-16 h-16 bg-black rounded-2xl flex items-center justify-center text-5xl">👔</div>
+                                <div>
+                                    <div class="font-semibold text-2xl">Adidas Global Events</div>
+                                    <div class="text-amber-400">Official FIFA Partner</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dots -->
+            <div class="flex justify-center gap-4 mt-12">
+                <button onclick="moveToSlide(0)" id="dot-0" class="w-4 h-4 rounded-full bg-amber-400"></button>
+                <button onclick="moveToSlide(1)" id="dot-1" class="w-4 h-4 rounded-full bg-slate-600"></button>
+                <button onclick="moveToSlide(2)" id="dot-2" class="w-4 h-4 rounded-full bg-slate-600"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="py-24 bg-gradient-to-br from-amber-400 to-yellow-500 text-slate-950">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-7">
+                    <h2 class="heading-font text-6xl leading-tight font-bold">Ready to travel like a champion?</h2>
+                    <p class="text-2xl mt-6">Book your luxury ground transportation for the FIFA World Cup 2026 today.</p>
+					<button class="mt-8 px-8 py-4 bg-slate-950 text-white rounded-xl hover:scale-105 transition">
+        Talk to Concierge
+    </button>
+                </div>
+                <div class="md:col-span-5 bg-white rounded-3xl p-10">
+                    <form id="simple-form" onsubmit="handleSubmit(event)" class="space-y-5">
+                        <input type="text" id="name" required placeholder="Full Name / Organization" 
+                               class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:border-amber-500 outline-none">
+                        <input type="email" id="email" required placeholder="Email Address" 
+                               class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:border-amber-500 outline-none">
+                        <textarea id="message" rows="3" placeholder="Your requirements..." 
+                                  class="w-full px-6 py-4 rounded-2xl border border-slate-300 focus:border-amber-500 outline-none"></textarea>
+                        <button type="submit" 
+                                class="w-full py-5 bg-slate-950 text-white font-semibold rounded-2xl text-lg flex items-center justify-center gap-3">
+                            SUBMIT REQUEST <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-12 text-center text-slate-500 text-sm">
+        <p>© 2026 Canadian Limos • Premium Ground Transportation for FIFA World Cup 2026</p>
+    </footer>
+
+    <script>
+        // Client animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    document.querySelectorAll('.client-card').forEach((card, i) => {
+                        setTimeout(() => card.classList.add('visible'), i * 150);
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        window.addEventListener('load', () => {
+            observer.observe(document.getElementById('clients'));
+        });
+
+        // Testimonials Carousel
+        let currentIndex = 0;
+        const track = document.getElementById('testimonial-track');
+        const dots = [document.getElementById('dot-0'), document.getElementById('dot-1'), document.getElementById('dot-2')];
+
+        function moveToSlide(index) {
+            currentIndex = index;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('bg-amber-400', i === currentIndex);
+                dot.classList.toggle('bg-slate-600', i !== currentIndex);
+            });
+        }
+
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % 3;
+            moveToSlide(currentIndex);
+        }, 7000);
+
+        // Form Handler
+        function handleSubmit(e) {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            const original = btn.innerHTML;
+            btn.disabled = true;
+            btn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> SENDING...`;
+
+            setTimeout(() => {
+                alert("✅ Thank you! Your request has been received.\nOur concierge will contact you shortly.");
+                e.target.reset();
+                btn.disabled = false;
+                btn.innerHTML = original;
+            }, 1500);
+        }
+    </script>
+	
+	
+	<script>
+  const elements = document.querySelectorAll('.reveal');
+
+  window.addEventListener('scroll', () => {
+    elements.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+
+      if (top < window.innerHeight - 100) {
+        el.classList.add('active');
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
